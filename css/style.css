@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
+    overflow-y: scroll;
+    padding-top: 70px; /* Adjust for fixed header */
 }
 .container {
     max-width: 600px;
@@ -9,6 +11,7 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 70px; /* Adjust for fixed header */
 }
 h1 {
     text-align: center;
@@ -67,10 +70,17 @@ h1 {
     text-align: center;
 }
 header {
-    background-color: #007bff;
-    color: white;
+    background-color: #d3d3d3; /* Light gray */
+    color: black; /* Black color for text */
     padding: 20px 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+header h1 {
+    color: black; /* Ensure h1 text is black */
 }
 footer {
     background-color: #f8f9fa;

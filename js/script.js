@@ -57,3 +57,13 @@ function copiarLink() {
         alert("Link copiado para a área de transferência!");
     });
 }
+
+function novoCalculo() {
+    document.getElementById('contadorForm').reset();
+    document.getElementById('dataFinal').textContent = '';
+    document.getElementById('quantidadeDias').textContent = '';
+    document.getElementById('diaSemana').textContent = '';
+    document.getElementById('quantidadeSemanas').textContent = '';
+    document.getElementById('quantidadeMeses').textContent = '';
+    document.getElementById('quantidadeAnos').textContent = '';
+}
