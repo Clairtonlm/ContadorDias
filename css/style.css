@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     overflow-y: scroll;
-    padding-top: 70px; /* Adjust for fixed header */
+    padding-top: 100px; /* Increased from 70px to 100px for more space */
 }
 .container {
     max-width: 600px;
@@ -11,7 +11,8 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 70px; /* Adjust for fixed header */
+    margin-top: 50px; /* Increased space between header and container */
+    margin-bottom: 10px; /* Adjust for fixed header */
 }
 h1 {
     text-align: center;
@@ -78,6 +79,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    margin-bottom: 10px; /* Adjust for fixed header */
 }
 header h1 {
     color: black; /* Ensure h1 text is black */
